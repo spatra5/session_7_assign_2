@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+	<h2>Welcome!</h2>
+  <!-- Trigger the modal with a button -->
+	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Sign Up</button>
+
+	<!-- Modal -->
+	<div id="myModal" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">Sign up to stay in touch!!</h4>
+		  </div>
+		  <div class="modal-body">
+			<div class="container-fluid">
+			  <form class="">
+				<div class="form-group row">
+				  <div class="col-sm-6 ">
+					<label for="inputFirstname" class="col-form-label">First Name</label>
+					<input type="text" class="form-control" id="inputFirstname" placeholder="First name">
+				  </div>
+				  
+				  <div class="col-sm-6">
+					<label for="inputLastname" class="col-form-label">Last Name</label>
+					<input type="text" class="form-control" id="inputLastname" placeholder="Last name">
+				  </div>
+				</div>
+				<div class="form-group row">
+				  <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+				  <div class="col-sm-10">
+					<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+				  </div>
+				</div>
+				<div class="form-group row">
+				  <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+				  <div class="col-sm-10">
+					<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+				  </div>
+				</div>
+				<div class="form-group row">
+				  <label for="example-date-input" class="col-xs-2 col-form-label">Date of Birth</label>
+				  <div class="col-xs-10">
+					<input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+				  </div>
+				</div>
+				<fieldset class="form-group row">
+				  <label class="col-form-label col-sm-2">Gender</label>
+				  <div class="col-sm-10">
+					<div class="form-check">
+					  <label class="form-check-inline">
+						<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+						Male
+					  </label>
+					
+					  <label class="form-check-inline">
+						<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+						Female
+					  </label>
+					</div>
+				  </div>
+				</fieldset>
+				<div class="form-group row">
+				  <div class="col-sm-10">
+					<div class="form-check">
+					  <label class="form-check-label">
+						<input class="form-check-input" type="checkbox"> I agree to the terms and conditions.
+					  </label>
+					</div>
+				  </div>
+				</div>
+				<div class="form-group row">
+				  <div class="offset-sm-2 col-sm-10">
+					<button type="submit" class="btn btn-primary">Submit</button>
+				  </div>
+				</div>
+			  </form>
+			</div>			
+		  </div>
+		</div>
+
+	  </div>
+	</div>
+
+</div>
+
+</body>
+</html>
+
